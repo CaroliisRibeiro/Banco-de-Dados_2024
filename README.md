@@ -1,7 +1,11 @@
 # Banco_de_Dados_1_2024
 
 ## 1º Projeto da disciplina de Banco de Dados 1 
+
 #### Sistema de Gerenciamento de Biblioteca 
+
+![06aaaf5758865ee026e82eba6780ca7b](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/b723605b-e1de-42a0-a499-3198332e72b4)
+
 #### Objetivo: Desenvolver um sistema de gerenciamento de biblioteca utilizando o Modelo Entidade-Relacionamento (MER).
 
 O Sistema escolhido para realizar o projeto foi o de Grenciamneto de Biblioteca, atraves dele pude entendender, elaborar e praticar os conteúdos estudados em sala, tais como: Visão geral de banco de dados, Modelo Entidade-Relacionamento (MER) - entidade, atributos,chaves,relacionamentos​, cardinalidades, Modelo Entidade-Relacionamento estendido - especialização-generalização, agregação​, Mapeamento MER → Relacional ​- entidades, atributos, chaves​, relacionamentos, cardinalidades​, relacionamentos n-ários, especialização-generalização, agregação​, o que é Ferramentas CASE​ e exemplos, entre outros.
