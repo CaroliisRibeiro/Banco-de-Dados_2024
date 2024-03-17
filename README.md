@@ -13,6 +13,7 @@ Contudo, nesse projeto você poderá ter uma vizualização da modelagem conceit
 ### Os atributos essenciais para cada entidade foraam criados: 
 - **Livro**
 - ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;
+  
 - **E-book**
 -  ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;
 **Usuário** 
@@ -67,7 +68,8 @@ Editora, autor, editora, titulo, area, genero
 **Participa**
 - Usuário -> Promoções;
 - Usuário -> Doação.
-  **Coordena**
+  
+**Coordena**
 - Auxiliar_Biblio -> Midia;
 - Auxiliar_Biblio -> Parcerias;
 - Auxiliar_Biblio -> Sebo_E-comerce.
