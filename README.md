@@ -22,7 +22,7 @@ https://universidadecatolica-my.sharepoint.com/:f:/g/personal/ana_00000801596_un
 ![Projeto banco de Dados Ana Carolina Ribeiro](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/8e7d3586-6dd4-442c-ba08-07eb32370c2c)
 
 
-### ​Requisitos Mínimos e Extras :
+### 1. ​Requisitos Mínimos e Extras :
 ## Criadas as entidades principais envolvidas no sistema :Livro, Autor, Usuário e Empréstimo.
 - Outras entidades: Devolução, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.
 
