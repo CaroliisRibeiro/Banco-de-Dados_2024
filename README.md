@@ -6,6 +6,9 @@
 - O Sistem escolhido para realizar o projeto foi o de Grenciamneto de Biblioteca, atraves dele pude entendender, elaborar e praticar os conteúdos estudados em sala, tais como: Visão geral de banco de dados, Modelo Entidade-Relacionamento (MER) - entidade, atributos,chaves,relacionamentos​, cardinalidades, Modelo Entidade-Relacionamento estendido - especialização-generalização, agregação​, Mapeamento MER → Relacional ​- entidades, atributos, chaves​, relacionamentos, cardinalidades​, relacionamentos n-ários, especialização-generalização, agregação​, o que é Ferramentas CASE​ e exemplos, entre outros.
 Contudo, nesse projeto você poderá ter uma vizualização da modelagem conceitual,fase que vem após a análise de requisitos em um projeto de banco de dados. Nesta etapa, traduzi os requisitos em diagramas e modelos para representar visualmente os conceitos e processos de negócio(Sistema Gerenciamneto Biblioteca) identificados anteriormente.
 
+![Projeto banco de Dados Ana Carolina Ribeiro](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/8e7d3586-6dd4-442c-ba08-07eb32370c2c)
+
+
 ### ​Requisitos Mínimos e Extras :
 ## Criadas as entidades principais envolvidas no sistema :Livro, Autor, Usuário e Empréstimo.
 - Outras entidades: Devolução, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.
