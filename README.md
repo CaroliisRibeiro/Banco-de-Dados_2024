@@ -7,9 +7,9 @@
 Outras entidades: Devolução, Multa, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.
 
 · Os atributos essenciais para cada entidade foraam criados: 
-· ** Livro
+<p> ** Livro </p>
 · --- ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;
-· ** E-book
+· <p>** E-book </p>
 · --- ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;
 · ** Usuário
 · --- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário;
