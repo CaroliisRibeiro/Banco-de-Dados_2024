@@ -16,30 +16,41 @@ Contudo, nesse projeto você poderá ter uma vizualização da modelagem conceit
   
 - **E-book**
 -  ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;
+  
 **Usuário** 
-- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário;
+- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário.
+  
 **Funcionário**
 - ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;
 - Expecializações: Professor, auxliar_Biblio e Bibliotecário;
+  
 **Empréstimo**
 - ID_Livro(Chave), ID_emprest, ID_func, ID_usuário, Data_emprest;
+  
 **Devolução**
 - ID_Livro(Chave), ID_devolução,ID_emprest, ID_func, ID_usuário, Data_dev;
+  
 **Multa**
 - Data_emprest, data_dev,tempo_permanecia, ID_Livro, ID_Usuário,livro_danificado;
+  
 **Promoções**
 - Livro_mes(ID_Livro - Chave) ,Cineteca(ID_Usuário e ID_Func- Chaves), Ranking_leiores(ID_Usuário - Chave), clube_leitura(ID_Usuário e ID_Func- Chaves), Aniversariante_mes(ID_Usuário - Chave);
+  
 **Midia**
 - ID_func
 - Especializações: Noticia(Local, muno,tema,area, ), redes sociais(e-mail_biblioteca-chave) , evento( nome,interno, externo);
+  
 **Doação**
 - ID_usu,ID_livro,gênero,Titulo, autor, editora,area.
+  
 **Multa**
 - Id_ Likvro, data_e3mpres, gÊnero, tempo_de_Permanencia, titulo, autor, editora, area;
+  
 **Sebo_E-comerce**
 Editora, autor, editora, titulo, area, genero
 - Especializações vendedor(e-mail, cel, cpf, ID_vendor-chave);
 - Especializações Cliente(e-mail, cel, cpf, ID_cliente-chave).
+  
 **Parcerias**
 - Especializações: professor(ID_func), commercio_local(CNPJ/CPF, Nome_comercial,end) estudante(IDU_suário).
 
