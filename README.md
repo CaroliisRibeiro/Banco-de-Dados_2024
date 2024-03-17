@@ -6,11 +6,11 @@
 - O Sistem escolhido para realizar o projeto foi o de Grenciamneto de Biblioteca, atraves dele pude entendender, elaborar e praticar os conteúdos estudados em sala, tais como: Visão geral de banco de dados, Modelo Entidade-Relacionamento (MER) - entidade, atributos,chaves,relacionamentos​, cardinalidades, Modelo Entidade-Relacionamento estendido - especialização-generalização, agregação​, Mapeamento MER → Relacional ​- entidades, atributos, chaves​, relacionamentos, cardinalidades​, relacionamentos n-ários, especialização-generalização, agregação​, o que é Ferramentas CASE​ e exemplos, entre outros.
 Contudo, nesse projeto você poderá ter uma vizualização da modelagem conceitual,fase que vem após a análise de requisitos em um projeto de banco de dados. Nesta etapa, traduzi os requisitos em diagramas e modelos para representar visualmente os conceitos e processos de negócio(Sistema Gerenciamneto Biblioteca) identificados anteriormente.
 
-​Requisitos Mínimos e Extras :
-### Criadas as entidades principais envolvidas no sistema :Livro, Autor, Usuário e Empréstimo.
+### ​Requisitos Mínimos e Extras :
+## Criadas as entidades principais envolvidas no sistema :Livro, Autor, Usuário e Empréstimo.
 - Outras entidades: Devolução, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.
 
-### Os atributos essenciais para cada entidade foraam criados: 
+## Os atributos essenciais para cada entidade foraam criados: 
 - **Livro**
 - ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;
   
@@ -54,7 +54,7 @@ Editora, autor, editora, titulo, area, genero
 **Parcerias**
 - Especializações: professor(ID_func), commercio_local(CNPJ/CPF, Nome_comercial,end) estudante(IDU_suário).
 
-### Relacionamentos estabbelecidos entre as entidades:
+## Relacionamentos estabbelecidos entre as entidades:
 **Reserva**
 - Usuário -> livro/E-book;
 - funcionário -> livro/E-book;
@@ -85,11 +85,11 @@ Editora, autor, editora, titulo, area, genero
 - Auxiliar_Biblio -> Parcerias;
 - Auxiliar_Biblio -> Sebo_E-comerce.
   
-### Utilizar cardinalidades para especificar a quantidade de entidades em cada lado do relacionamento.
+## Utilizar cardinalidades para especificar a quantidade de entidades em cada lado do relacionamento.
 - Nesse projeto a mioria da cardonalidade é (1,n), pois em relação a entidade Funcionário, temos o exemplo de: "1" Funcionário cadasdra "n" Usuários e "n" usuários é cadaastrado por 1 Funionário;
 - Outro caso que aconteceu no projeto foi o de (1,1): "1" Funcinário coordena "1" Midia e também "1" Funcionário coordena "1" Sebo_E-comerce.
 
-### Especialização-generalização
+## Especialização-generalização
 - Funcionário Expecializações: Professor, auxliar_Biblio e Bibliotecário( mesmos atributos de Funcionáro);
 - Promoções Especializações: Livro_mes(ID_Livro - Chave) ,Cineteca(ID_Usuário e ID_Func- Chaves), Ranking_leiores(ID_Usuário - Chave), clube_leitura(ID_Usuário e ID_Func- Chaves), Aniversariante_mes(ID_Usuário - Chave);
 - Midia Especializações: Noticia(Local, muno,tema,area, ), redes sociais(e-mail_biblioteca-chave) , evento( nome,interno, externo);
