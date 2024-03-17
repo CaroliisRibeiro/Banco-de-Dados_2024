@@ -90,7 +90,7 @@ Editora, autor, editora, titulo, area, genero
 - Outro caso que aconteceu no projeto foi o de (1,1): "1" Funcinário coordena "1" Midia e também "1" Funcionário coordena "1" Sebo_E-comerce.
 
 ### Especialização-generalização
-- Funcionário Expecializações: Professor, auxliar_Biblio e Bibliotecário( mesmos atributos de Funcionáro);</p>
+- Funcionário Expecializações: Professor, auxliar_Biblio e Bibliotecário( mesmos atributos de Funcionáro);
 - Promoções Especializações: Livro_mes(ID_Livro - Chave) ,Cineteca(ID_Usuário e ID_Func- Chaves), Ranking_leiores(ID_Usuário - Chave), clube_leitura(ID_Usuário e ID_Func- Chaves), Aniversariante_mes(ID_Usuário - Chave);
 - Midia Especializações: Noticia(Local, muno,tema,area, ), redes sociais(e-mail_biblioteca-chave) , evento( nome,interno, externo);
 - Sebo_E-comerce Especializações: vendedor(e-mail, cel, cpf, ID_vendor - chave), Cliente(e-mail, cel, cpf, ID_cliente-chave);
