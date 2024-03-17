@@ -1,28 +1,33 @@
 # Banco_de_Dados_1_2024
 
 ## 1º Projeto da disciplina de Banco de Dados 1
+#### Sistema de Gerenciamento de Biblioteca
+##### Objetivo: Desenvolver um sistema de gerenciamento de biblioteca utilizando o Modelo Entidade-Relacionamento (MER).
+- O Sistem escolhido para realizar o projeto foi o de Grenciamneto de Biblioteca, atraves dele pude entendender, elaborar e praticar os conteúdos estudados em sala, tais como: Visão geral de banco de dados, Modelo Entidade-Relacionamento (MER) - entidade, atributos,chaves,relacionamentos​, cardinalidades, Modelo Entidade-Relacionamento estendido - especialização-generalização, agregação​, Mapeamento MER → Relacional ​- entidades, atributos, chaves​, relacionamentos, cardinalidades​, relacionamentos n-ários, especialização-generalização, agregação​, o que é Ferramentas CASE​ e exemplos, entre outros.
+Contudo, nesse projeto você poderá ter uma vizualização da modelagem conceitual,fase que vem após a análise de requisitos em um projeto de banco de dados. Nesta etapa, traduzi os requisitos em diagramas e modelos para representar visualmente os conceitos e processos de negócio(Sistema Gerenciamneto Biblioteca) identificados anteriormente.
 
+​Requisitos Mínimos e Extras :
 ### Criadas as entidades principais envolvidas no sistema :Livro, Autor, Usuário e Empréstimo.
-<p> Outras entidades: Devolução, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.</p>
+- Outras entidades: Devolução, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.
 
 ### Os atributos essenciais para cada entidade foraam criados: 
 - **Livro**
-- ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;</p>
+- ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;
 - **E-book**
--  ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;</p>
+-  ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;
 **Usuário** 
-- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário; </p>
+- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário;
 **Funcionário**
-- ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;</p>
-- Expecializações: Professor, auxliar_Biblio e Bibliotecário;</p>
+- ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;
+- Expecializações: Professor, auxliar_Biblio e Bibliotecário;
 **Empréstimo**
-- ID_Livro(Chave), ID_emprest, ID_func, ID_usuário, Data_emprest;</p>
+- ID_Livro(Chave), ID_emprest, ID_func, ID_usuário, Data_emprest;
 **Devolução**
-- ID_Livro(Chave), ID_devolução,ID_emprest, ID_func, ID_usuário, Data_dev;</p>
+- ID_Livro(Chave), ID_devolução,ID_emprest, ID_func, ID_usuário, Data_dev;
 **Multa**
-- Data_emprest, data_dev,tempo_permanecia, ID_Livro, ID_Usuário,livro_danificado;</p>
+- Data_emprest, data_dev,tempo_permanecia, ID_Livro, ID_Usuário,livro_danificado;
 **Promoções**
-- Livro_mes(ID_Livro - Chave) ,Cineteca(ID_Usuário e ID_Func- Chaves), Ranking_leiores(ID_Usuário - Chave), clube_leitura(ID_Usuário e ID_Func- Chaves), Aniversariante_mes(ID_Usuário - Chave);</p>
+- Livro_mes(ID_Livro - Chave) ,Cineteca(ID_Usuário e ID_Func- Chaves), Ranking_leiores(ID_Usuário - Chave), clube_leitura(ID_Usuário e ID_Func- Chaves), Aniversariante_mes(ID_Usuário - Chave);
 **Midia**
 - ID_func
 - Especializações: Noticia(Local, muno,tema,area, ), redes sociais(e-mail_biblioteca-chave) , evento( nome,interno, externo);
