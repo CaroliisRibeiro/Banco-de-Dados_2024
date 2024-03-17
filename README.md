@@ -46,19 +46,24 @@ Editora, autor, editora, titulo, area, genero
 **Reserva**
 - Usuário -> livro/E-book;
 - funcionário -> livro/E-book;
+  
 **Efetua**
 - Emprestimo -> usuário -> livro/E-book;
 - Emprestimo -> Funcionário -> livro/E-book,
 - Devolução -> usuário -> livro/E-book;
 - Devolução -> Funcionário -> livro/E-book.
+  
 **Cadastra**
 - Funcionário -> LIvro/E-book/Usuário;
 - Funcionário -> Usuário;
 -  Funcionário -> Funcionário.
+  
 **Aplica**
 - Devolução -> Multa.
+  
 **Implica** 
 - Emprestimo -> Devolução.
+  
 **Participa**
 - Usuário -> Promoções;
 - Usuário -> Doação.
