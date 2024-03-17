@@ -17,7 +17,7 @@
 · --- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário; </p>
 
 <p>** Funcionário
-· --- ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;
+· --- ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;</p>
 · --- Expecializações: Professor, auxliar_Biblio e Bibliotecário;</p>
 
 · <p>** Empréstimo
