@@ -8,7 +8,7 @@
 
 #### Objetivo: Desenvolver um sistema de gerenciamento de biblioteca utilizando o Modelo Entidade-Relacionamento (MER).
 
-O sistema escolhido para este projeto é o de Gerenciamento de Biblioteca. Através dele, pude compreender, elaborar e aplicar os conteúdos estudados em sala de aula, abrangendo uma variedade de tópicos, tais como: Visão geral de banco de dados, Modelo Entidade-Relacionamento (MER) - incluindo entidades, atributos, chaves, relacionamentos e cardinalidades, além do Modelo Entidade-Relacionamento estendido, que aborda especialização-generalização e agregação. Também explorei o Mapeamento MER → Relacional, abordando entidades, atributos, chaves, relacionamentos, cardinalidades, relacionamentos n-ários, especialização-generalização e agregação. Além disso, discuti o uso de Ferramentas CASE e forneci exemplos práticos para ilustrar esses conceitos.
+<p> O sistema escolhido para este projeto é o de Gerenciamento de Biblioteca. Através dele, pude compreender, elaborar e aplicar os conteúdos estudados em sala de aula, abrangendo uma variedade de tópicos, tais como: Visão geral de banco de dados, Modelo Entidade-Relacionamento (MER) - incluindo entidades, atributos, chaves, relacionamentos e cardinalidades, além do Modelo Entidade-Relacionamento estendido, que aborda especialização-generalização e agregação. Também explorei o Mapeamento MER → Relacional, abordando entidades, atributos, chaves, relacionamentos, cardinalidades, relacionamentos n-ários, especialização-generalização e agregação. Além disso, discuti o uso de Ferramentas CASE e forneci exemplos práticos para ilustrar esses conceitos.
 
 Neste projeto, você terá a oportunidade de visualizar a modelagem conceitual, que é a fase que sucede a análise de requisitos em um projeto de banco de dados. Durante esta etapa, traduzi os requisitos identificados anteriormente para diagramas e modelos, representando visualmente os conceitos e processos de negócio relacionados ao Sistema de Gerenciamento de Biblioteca.
 
@@ -22,7 +22,7 @@ https://universidadecatolica-my.sharepoint.com/:f:/g/personal/ana_00000801596_un
 ![Projeto banco de Dados Ana Carolina Ribeiro](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/8e7d3586-6dd4-442c-ba08-07eb32370c2c)
 
 
-### 1. ​Requisitos Mínimos e Extras :
+## ​Requisitos Mínimos e Extras :
 ## Criadas as entidades principais envolvidas no sistema :Livro, Autor, Usuário e Empréstimo.
 - Outras entidades: Devolução, Promoção, Midia, Doação, Sebo_E-comerce, Parcerias.
 
