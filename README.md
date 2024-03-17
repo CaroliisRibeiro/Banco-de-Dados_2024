@@ -2,7 +2,7 @@
 
 ## 1º Projeto da disciplina de Banco de Dados 1 
 
-#### Sistema de Gerenciamento de Biblioteca 
+# Sistema de Gerenciamento de Biblioteca 
 
 ![06aaaf5758865ee026e82eba6780ca7b](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/b723605b-e1de-42a0-a499-3198332e72b4)
 
