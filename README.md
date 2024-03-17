@@ -11,7 +11,7 @@
 · --- ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;
 <p> ** E-book </p>
 · --- ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;
-<p>** Usuário< /p>
+<p>** Usuário </p>
 · --- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário;
 <p>** Funcionário </p>
 · --- ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;
