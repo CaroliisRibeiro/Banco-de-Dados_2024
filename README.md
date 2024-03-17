@@ -8,29 +8,30 @@
 
 · Os atributos essenciais para cada entidade foraam criados: 
 <p> ** Livro </p>
-· --- ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;
+· --- ID_Livro(chave), titulo, autor, ano, edição, editora, area, gÊnero, quant_livros,status;</p>
 
 <p> ** E-book </p>
-· --- ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;
+· --- ID_E-book(chave), titulo, autor, ano, edição, editora, area, gÊnero, link, quant_livros,status;</p>
 
 <p>** Usuário </p>
-· --- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário;
+· --- ID_usuário(chave), nome, CPF, login,senha_usuário, cel, end, gênero, status_Usuário; </p>
 
 <p>** Funcionário </p>
 · --- ID_Func, nome, login,senha_usuário, cel, end, gênero,função, status_func;
-· --- Expecializações: Professor, auxliar_Biblio e Bibliotecário;
+· --- Expecializações: Professor, auxliar_Biblio e Bibliotecário;</p>
 
 · <p>** Empréstimo</p>
-· --- ID_Livro(Chave), ID_emprest, ID_func, ID_usuário, Data_emprest;
+· --- ID_Livro(Chave), ID_emprest, ID_func, ID_usuário, Data_emprest;</p>
 
 · <p> ** Devolução </p>
-· -- ID_Livro(Chave), ID_devolução,ID_emprest, ID_func, ID_usuário, Data_dev;
+· -- ID_Livro(Chave), ID_devolução,ID_emprest, ID_func, ID_usuário, Data_dev;</p>
 
 <p> ** Multa</p>
---- Data_emprest, data_dev,tempo_permanecia, ID_Livro, ID_Usuário,livro_danificado;
+--- Data_emprest, data_dev,tempo_permanecia, ID_Livro, ID_Usuário,livro_danificado;</p>
 
 <p> ** Promoções</p>
---- Especialikzações 
+--- Especialikzações:</p>
+
 
 
 
