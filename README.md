@@ -97,3 +97,4 @@ Editora, autor, editora, titulo, area, genero
 - Parceria Especializações: professor(ID_func), commercio_local(CNPJ/CPF, Nome_comercial,end) estudante(IDU_suário).
 
 
+
