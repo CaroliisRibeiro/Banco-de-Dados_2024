@@ -7,7 +7,7 @@
 Contudo, nesse projeto você poderá ter uma vizualização da modelagem conceitual,fase que vem após a análise de requisitos em um projeto de banco de dados. Nesta etapa, traduzi os requisitos em diagramas e modelos para representar visualmente os conceitos e processos de negócio(Sistema Gerenciamneto Biblioteca) identificados anteriormente.
 
 
-### ![Projeto banco de Dados Ana Carolina Ribeiro](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/8e7d3586-6dd4-442c-ba08-07eb32370c2c)
+![Projeto banco de Dados Ana Carolina Ribeiro](https://github.com/CaroliisRibeiro/Banco-de-Dados_2024/assets/127742540/8e7d3586-6dd4-442c-ba08-07eb32370c2c)
 
 
 ### ​Requisitos Mínimos e Extras :
